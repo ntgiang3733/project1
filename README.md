@@ -32,25 +32,25 @@
 -B1: Lấy phần source code trên git về máy, dùng NetBean tìm đường dẫn và mở project nằm trong máy
 <img src=https://i.imgur.com/wKEuXvP.png>
 -B2: Thiết lập các thông số của class SQLConnect.java trong package prj.project1.connect cho phù hợp với thông số hiện tại trên máy
-<img src=https://imgur.com/0b6WZI7>
+<img src=https://i.imgur.com/0b6WZI7.png>
 -B3: Nếu sử dụng SQLServer, tạo mới database tên MoonStore , chạy file scriptSQLServer.sql để có được CSDL phù hợp .
 Nếu sử dụng MySQL. tạo mới database tên project, chạy file scriptMySQL.sql để có được CSDL phù hợp.
 
 <a name="huongdansudung"></a>
 ## IV . Hướng dẫn sử dụng :
 - Giao diện trang chủ với các mục tìm kiếm sản phẩm, xem sản phẩm theo loại như laptop gaming, đồ họa, văn phòng, thực hiện thanh toán, xem giỏ hàng, đăng ký đăng nhập:
-<img src="https://imgur.com/IBooYO7">
+<img src=https://i.imgur.com/IBooYO7.png>
 - Giao diện trang danh sách sản phẩm, tại đây người dùng có thể sắp xếp sản phẩm theo tên hoặc theo giá, click vào từng sản phẩm để xem chi tiết hoặc thêm sản phẩm vào giỏ hàng:
-<img src=https://imgur.com/dSt0aIH>
+<img src=https://i.imgur.com/dSt0aIH.png>
 - Giao diện trang chi tiết sản phẩm, khi click vào sản phẩm bất kỳ thì trang web sẽ hiển thị chi tiết sản phẩm gồm mã sản phẩm, tên, giá, hình ảnh chi tiết của sản phẩm đồng thời có thể thêm vào giỏ hàng tại đây:
-<img src=https://imgur.com/oRRoiDa>
+<img src=https://i.imgur.com/oRRoiDa.png>
 - Giao diện trang giỏ hàng , tại đây trang web sẽ liệt kê các sản phẩm được chọn, thông tin chi tiết, số lượng từng sản phẩm, tổng giá tiền cần trả, người dùng có thể điều chỉnh số lượng trực tiếp ngay tại đây để phù hợp với nhu cầu trước khi thanh toán:
-<img src=https://imgur.com/52yynsG>
+<img src=https://i.imgur.com/52yynsG.png>
 - Giao diện trang đăng ký, đăng nhập, ở trang đăng ký người dùng cần điền đầy đủ thông tin thiết yếu gồm email, tên tài khoản, mật khẩu, lưu ý nếu email đã có người đăng ký thì sẽ không được chấp nhận, khi đăng nhập thì người dùng cần nhập email và mật khẩu đã đăng ký vào:
-<img src=https://imgur.com/ZMBFpe8>
-<img src=https://imgur.com/7AVCEJh>
+<img src=https://i.imgur.com/ZMBFpe8.png>
+<img src=https://i.imgur.com/7AVCEJh.png>
 - Giao diện trang thanh toán, sau khi đã thêm các sản phẩm cần thiết vào giỏ hàng, người dùng sẽ chuyển đến trang thanh toán để hoàn thành các thông tin cá nhân, lưu ý trước khi thanh toán cần phải đăng nhập vào hệ thống, tại trang thanh toán người dùng cần nhập các thông tin gồm họ tên, địa chỉ, lựa chọn hình thức thanh toán:
-<img src=https://imgur.com/n69Son9>
+<img src=https://i.imgur.com/n69Son9.png>
 
 <a name="demovideo"></a>
 ## V . Demo Video :
