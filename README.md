@@ -1,6 +1,6 @@
-#Tài liệu hướng dẫn sử dụng
+# Tài liệu hướng dẫn sử dụng
 
-###Mục lục
+### Mục lục
 
 [I.Mục tiêu](#muctieu)
 
@@ -16,7 +16,7 @@
 ==========================================================
 
 <a name="muctieu"></a>
-##I . Mục tiêu Backend
+## I . Mục tiêu Backend
 Website thương mại điện tử là trang thông tin điện tử được thiết lập để phục vụ một phần hoặc toàn bộ quy trình của hoạt động mua bán hàng hóa hay cung ứng dịch vụ, từ trưng bày giới thiệu hàng hóa, dịch vụ đến giao kết hợp đồng, cung ứng dịch vụ, thanh toán và dịch vụ sau bán hàng.
 Project này nhóm em thực hiện thiết kế trang web bán laptop , trong đó phần backend được xây dựng nhằm cung cấp các tính năng và cơ sở dữ liệu phục vụ cho người sử dụng, cụ thể gồm:
 -Cung cấp cơ sở dữ liệu, nơi lưu trữ thông tin về sản phẩm, tài khoản, hóa đơn...
@@ -27,7 +27,7 @@ Project này nhóm em thực hiện thiết kế trang web bán laptop , trong �
 Phần Backend của Project lập trình bằng ngôn ngữ Java, sử dụng công nghệ JSP Servlet JDBC để xây dựng các chức năng và 2 hệ quản trị CSDL : SQLServer và MySQL
 
 <a name="huongdancaidat"></a>
-##III . Hướng dẫn cài đặt phần Backend
+## III . Hướng dẫn cài đặt phần Backend
 **Các phần mềm cần thiết : **NetBean IDE, SQLServer( hoặc MySQL)
 -B1: Lấy phần source code trên git về máy, dùng NetBean tìm đường dẫn và mở project nằm trong máy
 <img src=https://imgur.com/wKEuXvP>
@@ -38,7 +38,7 @@ Phần Backend của Project lập trình bằng ngôn ngữ Java, sử dụng c
 Nếu sử dụng MySQL. tạo mới database tên project, chạy file scriptMySQL.sql để có được CSDL phù hợp.
 
 <a name="huongdansudung"></a>
-##IV . Hướng dẫn sử dụng :
+## IV . Hướng dẫn sử dụng :
 -Giao diện trang chủ với các mục tìm kiếm sản phẩm, xem sản phẩm theo loại như laptop gaming, đồ họa, văn phòng, thực hiện thanh toán, xem giỏ hàng, đăng ký đăng nhập:
 <img src=https://imgur.com/IBooYO7>
 -Giao diện trang danh sách sản phẩm, tại đây người dùng có thể sắp xếp sản phẩm theo tên hoặc theo giá, click vào từng sản phẩm để xem chi tiết hoặc thêm sản phẩm vào giỏ hàng:
@@ -54,7 +54,7 @@ Nếu sử dụng MySQL. tạo mới database tên project, chạy file scriptMy
 <img src=https://imgur.com/n69Son9>
 
 <a name="demovideo"></a>
-##V . Demo Video :
+## V . Demo Video :
 link video demo:
 
 
