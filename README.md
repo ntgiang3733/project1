@@ -40,7 +40,7 @@ Nếu sử dụng MySQL. tạo mới database tên project, chạy file scriptMy
 <a name="huongdansudung"></a>
 ## IV . Hướng dẫn sử dụng :
 - Giao diện trang chủ với các mục tìm kiếm sản phẩm, xem sản phẩm theo loại như laptop gaming, đồ họa, văn phòng, thực hiện thanh toán, xem giỏ hàng, đăng ký đăng nhập:
-![alt text](https://imgur.com/IBooYO7)
+![alt text](http://imgur.com/IBooYO7)
 <img src=https://imgur.com/IBooYO7>
 - Giao diện trang danh sách sản phẩm, tại đây người dùng có thể sắp xếp sản phẩm theo tên hoặc theo giá, click vào từng sản phẩm để xem chi tiết hoặc thêm sản phẩm vào giỏ hàng:
 <img src=https://imgur.com/dSt0aIH>
