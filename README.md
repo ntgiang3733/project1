@@ -23,14 +23,13 @@
 - Cung cấp cho người dùng các chức năng khi truy cập trang web gồm : xem danh sách sản phẩm, lọc sản phẩm theo danh mục, sắp xếp sản phẩm theo tên, theo giá,tìm kiếm sản phẩm, thực hiện đăng ký , đăng nhập tài khoản, thêm sản phẩm vào giỏ hàng, thanh toán.
 
 <a name="congnghesudung"></a>
-##II . Công nghệ sử dụng Backend
+## II . Công nghệ sử dụng Backend
   Phần Backend của Project lập trình bằng ngôn ngữ Java, sử dụng công nghệ JSP Servlet JDBC để xây dựng các chức năng và 2 hệ quản trị CSDL : SQLServer và MySQL
 
 <a name="huongdancaidat"></a>
 ## III . Hướng dẫn cài đặt phần Backend
 **Các phần mềm cần thiết : **NetBean IDE, SQLServer( hoặc MySQL)
 -B1: Lấy phần source code trên git về máy, dùng NetBean tìm đường dẫn và mở project nằm trong máy
-<img src=![](media/Screenshot (17).png)>
 <img src=https://imgur.com/SGNi3Re>
 -B2: Thiết lập các thông số của class SQLConnect.java trong package prj.project1.connect cho phù hợp với thông số hiện tại trên máy
 <img src=https://imgur.com/0b6WZI7>
@@ -40,7 +39,7 @@ Nếu sử dụng MySQL. tạo mới database tên project, chạy file scriptMy
 <a name="huongdansudung"></a>
 ## IV . Hướng dẫn sử dụng :
 - Giao diện trang chủ với các mục tìm kiếm sản phẩm, xem sản phẩm theo loại như laptop gaming, đồ họa, văn phòng, thực hiện thanh toán, xem giỏ hàng, đăng ký đăng nhập:
-<img src=https://imgur.com/IBooYO7>
+<img src="https://imgur.com/IBooYO7">
 - Giao diện trang danh sách sản phẩm, tại đây người dùng có thể sắp xếp sản phẩm theo tên hoặc theo giá, click vào từng sản phẩm để xem chi tiết hoặc thêm sản phẩm vào giỏ hàng:
 <img src=https://imgur.com/dSt0aIH>
 - Giao diện trang chi tiết sản phẩm, khi click vào sản phẩm bất kỳ thì trang web sẽ hiển thị chi tiết sản phẩm gồm mã sản phẩm, tên, giá, hình ảnh chi tiết của sản phẩm đồng thời có thể thêm vào giỏ hàng tại đây:
