@@ -30,7 +30,7 @@
 ## III . Hướng dẫn cài đặt phần Backend
 **Các phần mềm cần thiết : **NetBean IDE, SQLServer( hoặc MySQL)
 -B1: Lấy phần source code trên git về máy, dùng NetBean tìm đường dẫn và mở project nằm trong máy
-<img src=https://imgur.com/SGNi3Re>
+<img src=https://i.imgur.com/wKEuXvP.png>
 -B2: Thiết lập các thông số của class SQLConnect.java trong package prj.project1.connect cho phù hợp với thông số hiện tại trên máy
 <img src=https://imgur.com/0b6WZI7>
 -B3: Nếu sử dụng SQLServer, tạo mới database tên MoonStore , chạy file scriptSQLServer.sql để có được CSDL phù hợp .
