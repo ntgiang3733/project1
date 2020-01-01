@@ -30,7 +30,7 @@
 ## III . Hướng dẫn cài đặt phần Backend
 **Các phần mềm cần thiết : **NetBean IDE, SQLServer( hoặc MySQL)
 -B1: Lấy phần source code trên git về máy, dùng NetBean tìm đường dẫn và mở project nằm trong máy
-![](media/test.png)
+![](media/Screenshot (17).png)
 <img src=https://imgur.com/SGNi3Re>
 -B2: Thiết lập các thông số của class SQLConnect.java trong package prj.project1.connect cho phù hợp với thông số hiện tại trên máy
 <img src=https://imgur.com/0b6WZI7>
