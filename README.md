@@ -30,7 +30,7 @@
 ## III . Hướng dẫn cài đặt phần Backend
 **Các phần mềm cần thiết : **NetBean IDE, SQLServer( hoặc MySQL)
 -B1: Lấy phần source code trên git về máy, dùng NetBean tìm đường dẫn và mở project nằm trong máy
-<img src=https://imgur.com/wKEuXvP>
+<img src=![](media/Screenshot (17).png)>
 <img src=https://imgur.com/SGNi3Re>
 -B2: Thiết lập các thông số của class SQLConnect.java trong package prj.project1.connect cho phù hợp với thông số hiện tại trên máy
 <img src=https://imgur.com/0b6WZI7>
@@ -40,7 +40,6 @@ Nếu sử dụng MySQL. tạo mới database tên project, chạy file scriptMy
 <a name="huongdansudung"></a>
 ## IV . Hướng dẫn sử dụng :
 - Giao diện trang chủ với các mục tìm kiếm sản phẩm, xem sản phẩm theo loại như laptop gaming, đồ họa, văn phòng, thực hiện thanh toán, xem giỏ hàng, đăng ký đăng nhập:
-![](http://imgur.com/IBooYO7)
 <img src=https://imgur.com/IBooYO7>
 - Giao diện trang danh sách sản phẩm, tại đây người dùng có thể sắp xếp sản phẩm theo tên hoặc theo giá, click vào từng sản phẩm để xem chi tiết hoặc thêm sản phẩm vào giỏ hàng:
 <img src=https://imgur.com/dSt0aIH>
