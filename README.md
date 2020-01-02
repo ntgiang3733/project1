@@ -55,11 +55,14 @@ Nếu sử dụng MySQL. tạo mới database tên project, chạy file scriptMy
 
 - **dao** : chứa các class, funtion xử lý việc kết nối với database để truy vấn, thêm, sửa , xóa dữ liệu :
     - CategoryDAO : chứa các hàm lấy danh sách danh mục, chèn , sửa, xóa  danh mục
-    <img src=https://i.imgur.com/Jp1nb0s.png>
+    <img src=https://i.imgur.com/Jp1nb0s.png>.
+    
     - ProductDAO : chứa các hàm chính như lấy danh sách sản phẩm theo danh mục, sắp xếp theo tên, giá, lấy sản phẩm theo mã sản phẩm, thêm sửa xóa sản phẩm...
-    <img src=https://i.imgur.com/bp3IrKl.png>
+    <img src=https://i.imgur.com/bp3IrKl.png>.
+    
     - UsersDAO : chứa các hàm chính như lấy danh sách tài khoản, các hàm kiểm tra tài khoản hỗ trợ cho việc đăng ký đăng nhập, các hàm thêm xóa tài khoản...
-    <img src=https://i.imgur.com/seqgW2W.png>
+    <img src=https://i.imgur.com/seqgW2W.png>.
+    
     - BillDAO và BillDetailDAO : chứa các hàm phục vụ cho việc thống kê qua hóa đơn và chi tiết hóa đơn.
     <img src=https://i.imgur.com/sJT3Xxp.png>.
     
