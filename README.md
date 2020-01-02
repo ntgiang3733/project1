@@ -40,14 +40,32 @@ Nếu sử dụng MySQL. tạo mới database tên project, chạy file scriptMy
 ## IV . Hướng dẫn sử dụng :
 
 **Phần Backend được xây dựng với các package chính gồm : ** connect, controller,dao, model, service
-<img src=>
+<img src=https://i.imgur.com/JGhKkH6.png>
 - **connect**: gồm 2 class ConnectionUtils.java để kiểm tra kết nối và SQLConnect.java để thiết lập kết nối với CSDL :
-<img src=>
+<img src=https://i.imgur.com/hkAQmoM.png>
   Trong lớp SQLConnect.java,ta truyền các tham số cần thiết vào hàm getSQLServerConnection để hàm trả về đối tượng Connection kết nối với CSDL, trong đó :
   - Nếu sử dụng SQLServer thì cần gọi hàm getSQLServerConnection và truyền vào các tham số :hostName("localhost"), sqlInstanceName("SQLEXPRESS"), database(tên database, trong project database được đặt tên là "MoonStore"),userName, password(lấy giá trị đã đặt trên máy) đồng thời đặt giá trị sqlserver=true.
   - Nếu sử dụng MySQL thì cần gọi hàm getSQLServerConnection và truyền vào các tham số : hostName("localhost"), dbName(tên database, trong project database được đặt tên là "project"), userName, password(lấy giá trị đã đặt trên máy) đồng thời đặt giá trị sqlserver=false.
   
-**model** : gồm các class khai báo các thuộc tính và phương thức tương ứng với các đối tượng gồm : Bill-hóa đơn,BillDetail-chi tiết hóa đơn,Cart-giỏ hàng
+- **model** : gồm các class khai báo các thuộc tính và phương thức tương ứng với các đối tượng như : Bill-hóa đơn,BillDetail-chi tiết hóa đơn,Cart-giỏ hàng, Product- sản phẩm, User - tài khoản...
+<img src=https://i.imgur.com/tZiTTMX.png>
+<img src=https://i.imgur.com/gt2H3zf.png><img src=https://i.imgur.com/ayONe4C.png>
+<img src=https://i.imgur.com/NecSIpg.png><img src=https://i.imgur.com/hZirdbR.png>
+- **dao** : chứa các class, funtion xử lý việc kết nối với database để truy vấn, thêm, sửa , xóa dữ liệu :
+    - CategoryDAO : chứa các hàm lấy danh sách danh mục, chèn , sửa, xóa  danh mục
+    <img src=https://i.imgur.com/Jp1nb0s.png>
+    - ProductDAO : chứa các hàm chính như lấy danh sách sản phẩm theo danh mục, sắp xếp theo tên, giá, lấy sản phẩm theo mã sản phẩm, thêm sửa xóa sản phẩm...
+    <img src=https://i.imgur.com/bp3IrKl.png>
+    - UsersDAO : chứa các hàm chính như lấy danh sách tài khoản, các hàm kiểm tra tài khoản hỗ trợ cho việc đăng ký đăng nhập, các hàm thêm xóa tài khoản...
+    <img src=https://i.imgur.com/seqgW2W.png>
+    - BillDAO và BillDetailDAO : chứa các hàm phục vụ cho việc thống kê qua hóa đơn và chi tiết hóa đơn.
+    <img src=https://i.imgur.com/sJT3Xxp.png>
+- **controller, service** : tiếp nhận những yêu cầu xử lý được gửi từ người dùng, gồm các class/function xử lý nhiều nghiệp vụ logic để lấy dữ liệu thông tin cần thiết nhờ các nghiệp vụ lớp Model, DAO từ đó cung cấp dữ liệu ra cho người dùng như:
+  - CartServlet : xử lý các tác vụ với giỏ hàng như tạo phiên làm việc với giỏ hàng, thêm, bớt, hủy sản phẩm trong giỏ hàng
+  - LoginServet, RegisterServlet : xử lý các tác vụ như thực hiện việc kiểm tra tài khoản khi đăng ký, tạo phiên làm việc khi đăng nhập...
+  - CheckoutServlet : xử lý các tác vụ với việc thanh toán như thêm đơn hàng và thông tin vào chi tiết đơn hàng khi người dùng thực hiện việc thanh toán.
+  - ProductService : cung cấp dữ liệu về các sản phẩm cho người dùng như cung cấp danh sách toàn bộ sản phẩm, danh sách sản phẩm theo danh mục, theo trật tự sắp xếp, theo mã sản phẩm... và tiếp nhận xử lý các yêu cầu thêm sửa xóa sản phẩm.
+  - UserService : tiếp nhận xử lý các yêu cầu đăng ký đăng nhập và chỉnh sửa tài khoản.
   
 
 <a name="demovideo"></a>
