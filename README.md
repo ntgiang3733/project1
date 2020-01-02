@@ -46,7 +46,7 @@
 
 <a name="huongdancaidat1"></a>
 ## III . Hướng dẫn cài đặt phần
-**Các phần mềm cần thiết : **NetBean IDE, SQLServer( hoặc MySQL)
+**Các phần mềm cần thiết** :NetBean IDE, SQLServer( hoặc MySQL)
 -B1: Lấy phần source code trên git về máy, dùng NetBean tìm đường dẫn và mở project nằm trong máy
 <img src=https://i.imgur.com/wKEuXvP.png>
 -B2: Thiết lập các thông số của class SQLConnect.java trong package prj.project1.connect cho phù hợp với thông số hiện tại trên máy
