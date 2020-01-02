@@ -1,0 +1,699 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>LaptopProject</title>
+  <meta http-equiv="content-type" content="text/html;charset=utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="e-commerce site well design with responsive view." />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <link href="../ms03/image/logo - Copy.png" rel="icon" type="image/png" >
+  <link href="css/bootstrap.min.css" rel="stylesheet" media="screen" />
+  <link href="javascript/font-awesome/css/font-awesome.css" rel="stylesheet" type="text/css" />
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,700" rel="stylesheet"/>
+  <link href="css/stylesheet.css" rel="stylesheet">
+  <link href="css/responsive.css" rel="stylesheet">
+  <link href="javascript/owl-carousel/owl.carousel.css" type="text/css" rel="stylesheet" media="screen" />
+  <link href="javascript/owl-carousel/owl.transitions.css" type="text/css" rel="stylesheet" media="screen" />
+  <script type="text/javascript" src="javascript/jquery-2.1.1.min.js" ></script>
+  <script type="text/javascript" src="javascript/bootstrap/js/bootstrap.min.js" ></script>
+  <script type="text/javascript" src="javascript/template_js/jstree.min.js"></script>
+  <script type="text/javascript" src="javascript/template_js/template.js"></script>
+  <script type="text/javascript" src="javascript/common.js" ></script>
+  <script type="text/javascript" src="javascript/global.js" ></script>
+  <script type="text/javascript" src="javascript/owl-carousel/owl.carousel.min.js" ></script>
+  </head>
+  <body class="index">
+  <div class="preloader loader" style="display: block;"> <img src="image/loader.gif"  alt="#"/></div>
+<header>
+  <div class="header-top">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12">
+          <div class="top-left pull-left">
+            
+            <div class="currency">
+              <form action="#" method="post" enctype="multipart/form-data" id="currency">
+                
+              </form>
+            </div>
+            <div class="wel-come-msg"> Chào mừng đến với Project Laptop </div>
+          </div>
+          <div class="top-right pull-right">
+            <div id="top-links" class="nav pull-right">
+              <ul class="list-inline">
+                <li class="dropdown"><a href="#" title="My Account" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-user" aria-hidden="true"></i><span>Tài khoản</span> <span class="caret"></span></a>
+                  <ul class="dropdown-menu dropdown-menu-right">
+                    <li><a href="register.html">Đăng ký</a></li>
+                    <li><a href="login.html">Đăng nhập</a></li>
+                  </ul>
+                </li>
+                <li><a href="#" id="wishlist-total" title="Wish List (0)"><i class="fa fa-heart" aria-hidden="true"></i><span>Danh sách yêu thích</span><span> (0)</span></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="header-inner">
+      <div class="col-sm-3 col-xs-3 header-left">
+        <div id="logo"> <a href="index.html"><img style="height: 100%;" width="100%" src="../ms03/image/logo.png" title="E-Commerce" alt="E-Commerce" class="img-responsive" /></a> </div>
+      </div>
+      <div class="col-sm-9 col-xs-9 header-right">
+        <div id="search" class="input-group">
+          <input type="text" name="search" value="" placeholder="Nhập từ khóa tìm kiếm ..." class="form-control input-lg" />
+          <span class="input-group-btn">
+          <button type="button" class="btn btn-default btn-lg"><span>Tìm kiếm</span></button>
+          </span> </div>
+        <div id="cart" class="btn-group btn-block">
+          <button type="button" class="btn btn-inverse btn-block btn-lg dropdown-toggle cart-dropdown-button"> <span id="cart-total">
+          <span>Giỏ hàng</span><br>
+          3 sản phẩm</span></button>
+          <ul class="dropdown-menu pull-right cart-dropdown-menu">
+            <li>
+              <table class="table table-striped">
+                <tbody>
+                  <tr>
+                    <td class="text-center"><a href="#"><img class="img-thumbnail" title="lorem ippsum dolor dummy" alt="lorem ippsum dolor dummy" src="image/product/7product56x72.jpg"></a></td>
+                    <td class="text-left"><a href="#">Macbook Pro 2017</a></td>
+                    <td class="text-right">x 1</td>
+                    <td class="text-right">30.000.000 đ</td>
+                    <td class="text-center"><button class="btn btn-danger btn-xs" title="Remove" type="button"><i class="fa fa-times"></i></button></td>
+                  </tr>
+                </tbody>
+              </table>
+            </li>
+            <li>
+              <table class="table table-striped">
+                <tbody>
+                  <tr>
+                    <td class="text-center"><a href="#"><img class="img-thumbnail" title="lorem ippsum dolor dummy" alt="lorem ippsum dolor dummy" src="image/product/7product56x72.jpg"></a></td>
+                    <td class="text-left"><a href="#">Macbook Pro 2017</a></td>
+                    <td class="text-right">x 1</td>
+                    <td class="text-right">30.000.000 đ</td>
+                    <td class="text-center"><button class="btn btn-danger btn-xs" title="Remove" type="button"><i class="fa fa-times"></i></button></td>
+                  </tr>
+                </tbody>
+              </table>
+            </li>
+            <li>
+              <table class="table table-striped">
+                <tbody>
+                  <tr>
+                    <td class="text-center"><a href="#"><img class="img-thumbnail" title="lorem ippsum dolor dummy" alt="lorem ippsum dolor dummy" src="image/product/7product56x72.jpg"></a></td>
+                    <td class="text-left"><a href="#">Macbook Pro 2017</a></td>
+                    <td class="text-right">x 1</td>
+                    <td class="text-right">30.000.000 đ</td>
+                    <td class="text-center"><button class="btn btn-danger btn-xs" title="Remove" type="button"><i class="fa fa-times"></i></button></td>
+                  </tr>
+                </tbody>
+              </table>
+            </li>
+            <li>
+              <div>
+                <table class="table table-bordered">
+                  <tbody>
+                    <tr>
+                      <td class="text-right"><strong>Tổng phụ</strong></td>
+                      <td class="text-right">90.000.000 đ</td>
+                    </tr>
+                    <tr>
+                      <td class="text-right"><strong>VAT (10%)</strong></td>
+                      <td class="text-right">9.000.000 đ</td>
+                    </tr>
+                    <tr>
+                      <td class="text-righ"><strong>Tổng</strong></td>
+                      <td class="text-right">99.000.000 đ</td>
+                    </tr>
+                  </tbody>
+                </table>
+                <p class="text-right"> <span class="btn-viewcart"><a href="cart.html"><strong><i class="fa fa-shopping-cart"></i> Xem giỏ hàng</strong></a></span> <span class="btn-checkout"><a href="checkout.html"><strong><i class="fa fa-share"></i> Thanh toán</strong></a></span> </p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+<nav id="menu" class="navbar">
+  <div class="nav-inner">
+    <div class="navbar-header"><span id="category" class="visible-xs">Phân loại</span>
+      <button type="button" class="btn btn-navbar navbar-toggle" ><i class="fa fa-bars"></i></button>
+    </div>
+    <div class="navbar-collapse">
+      <ul class="main-navigation">
+        <li><a href="index.html"   class="parent"  >Trang chủ</a> </li>
+        <li><a href="laptopGaming.html"   class="parent"  >Laptop gaming</a> </li>
+        <li><a href="laptopGaming.html"   class="parent"  >laptop đồ họa</a> </li>
+        <li><a href="LaptopGaming.html"   class="parent"  >laptop văn phòng</a> </li>
+        <li><a href="#" class="active parent">Danh mục</a>
+          <ul>
+            <li><a href="checkout.html">Thanh toán</a></li>
+            <li><a href="affiliate.html">Hệ thống showroom</a></li>
+            <li><a href="cart.html">Giỏ hàng</a></li>
+            <li><a href="forgetpassword.html">Quên mật khẩu</a></li>
+          </ul>
+        </li>
+    </div>
+  </div>
+</nav>
+<div class="breadcrumb parallax-container">
+  <div class="parallax"><img src="image/prlx.jpg" alt="#"></div>
+  <h1>Sản Phẩm</h1>
+  <ul>
+    <li><a href="index.html">Trang chủ</a></li>
+    <li><a href="laptopGaming.html">Màn hình</a></li>
+    <li><a href="#">Macbook Pro 2017</a></li>
+  </ul>
+</div>
+<div class="container">
+  <div class="row">
+    <div class="content col-sm-12">
+      <div class="row">
+        <div class="col-sm-5">
+          <div class="thumbnails">
+            <div><a class="thumbnail fancybox" href="../ms03/image/img-product/apple-macbook-pro-touch-2019-i5-14ghz-8gb-128gb-m-2-2-600x600.jpg" title="Casual Shirt With Ruffle Hem"><img src="../ms03/image/img-product/apple-macbook-pro-touch-2019-i5-14ghz-8gb-128gb-m-2-2-600x600.jpg" title="Casual Shirt With Ruffle Hem" alt="iPod Classic" /></a></div>
+            <div id="product-thumbnail" class="owl-carousel">
+              <div class="item">
+                <div class="image-additional"><a class="thumbnail fancybox" href="../ms03/image/img-product/apple-macbook-pro-touch-2019-i5-14ghz-8gb-128gb-m-2-2-600x600.jpg" title="iPod Classic"> <img src="../ms03/image/img-product/apple-macbook-pro-touch-2019-i5-14ghz-8gb-128gb-m-2-2-600x600.jpg" title="iPod Classic" alt="iPod Classic" /></a></div>
+              </div>
+              <div class="item">
+                <div class="image-additional"><a class="thumbnail fancybox" href="../ms03/image/img-product/apple-macbook-pro-touch-2019-i5-14ghz-8gb-128gb-m-2-2-600x600.jpg" title="iPod Classic"> <img src="../ms03/image/img-product/apple-macbook-pro-touch-2019-i5-14ghz-8gb-128gb-m-2-2-600x600.jpg" title="iPod Classic" alt="iPod Classic" /></a></div>
+              </div>
+              <div class="item">
+                <div class="image-additional"><a class="thumbnail fancybox" href="../ms03/image/img-product/apple-macbook-pro-touch-2019-i5-14ghz-8gb-128gb-m-2-2-600x600.jpg" title="iPod Classic"> <img src="../ms03/image/img-product/apple-macbook-pro-touch-2019-i5-14ghz-8gb-128gb-m-2-2-600x600.jpg" title="iPod Classic" alt="iPod Classic" /></a></div>
+              </div>
+              <div class="item">
+                <div class="image-additional"><a class="thumbnail fancybox" href="../ms03/image/img-product/apple-macbook-pro-touch-2019-i5-14ghz-8gb-128gb-m-2-2-600x600.jpg" title="iPod Classic"> <img src="../ms03/image/img-product/apple-macbook-pro-touch-2019-i5-14ghz-8gb-128gb-m-2-2-600x600.jpg" title="iPod Classic" alt="iPod Classic" /></a></div>
+              </div>
+              <div class="item">
+                <div class="image-additional"><a class="thumbnail fancybox" href="../ms03/image/img-product/apple-macbook-pro-touch-2019-i5-14ghz-8gb-128gb-m-2-2-600x600.jpg" title="iPod Classic"> <img src="../ms03/image/img-product/apple-macbook-pro-touch-2019-i5-14ghz-8gb-128gb-m-2-2-600x600.jpg" title="iPod Classic" alt="iPod Classic" /></a></div>
+              </div>
+              <div class="item">
+                <div class="image-additional"><a class="thumbnail fancybox" href="../ms03/image/img-product/apple-macbook-pro-touch-2019-i5-14ghz-8gb-128gb-m-2-2-600x600.jpg" title="iPod Classic"> <img src="../ms03/image/img-product/apple-macbook-pro-touch-2019-i5-14ghz-8gb-128gb-m-2-2-600x600.jpg" title="iPod Classic" alt="iPod Classic" /></a></div>
+              </div>
+              <div class="item">
+                <div class="image-additional"><a class="thumbnail fancybox" href="../ms03/image/img-product/apple-macbook-pro-touch-2019-i5-14ghz-8gb-128gb-m-2-2-600x600.jpg" title="iPod Classic"> <img src="../ms03/image/img-product/apple-macbook-pro-touch-2019-i5-14ghz-8gb-128gb-m-2-2-600x600.jpg" title="iPod Classic" alt="iPod Classic" /></a></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-7 prodetail">
+          <h1 class="productpage-title">Macbook Pro 2017</h1>
+          <div class="rating"> <span class="fa fa-stack"><i class="fa fa-star-o fa-stack-2x"></i><i class="fa fa-star fa-stack-2x"></i></span> <span class="fa fa-stack"><i class="fa fa-star-o fa-stack-2x"></i><i class="fa fa-star fa-stack-2x"></i></span> <span class="fa fa-stack"><i class="fa fa-star-o fa-stack-2x"></i><i class="fa fa-star fa-stack-2x"></i></span> <span class="fa fa-stack"><i class="fa fa-star-o fa-stack-2x"></i><i class="fa fa-star fa-stack-2x"></i></span> <span class="fa fa-stack"><i class="fa fa-star-o fa-stack-2x"></i></span><span class="riview"><a href="#">10.000 lượt xem</a> / <a href="#">5.678 đánh giá</a></span> </div>
+          <ul class="list-unstyled productinfo-details-top">
+            <li>
+              <h2 class="productpage-price">30.000.000 đ</h2>
+            </li>
+            <li><span class="productinfo-tax">Giá cũ : 35.000.000 đ</span></li>
+          </ul>
+          <hr>
+          <ul class="list-unstyled product_info">
+            <li>
+              <label>Thương hiệu:</label>
+              <span> <a href="#">Apple</a></span></li>
+            <li>
+              <label>Mã sản phẩm:</label>
+              <span>MAC 1</span></li>
+            <li>
+              <label>Tình trạng:</label>
+              <span> Còn hàng</span></li>
+          </ul>
+          <hr>
+          <p class="product-desc"> MacBook Pro Retina 13 inch 2017 MPXT2 – Core i7 512GB 16GB RAM </p>
+          <div id="product">
+            <div class="form-group">
+              <div class="row">
+                <div class="Sort-by col-md-6">
+                  <label>Core </label>
+                  <select id="select-by-size" class="selectpicker form-control">
+                    <option value="#" selected="selected">i5</option>
+                    <option value="#">i5</option>
+                    <option value="#">i7</option>
+                  </select>
+                </div>
+                <div class="Color col-md-6">
+                  <label>RAM</label>
+                  <select id="select-by-color" class="selectpicker form-control">
+                    <option value="#" selected="selected">8GB</option>
+                    <option value="#">16GB</option>
+                    <option value="#">32BG</option>
+                    <option value="#">64BG</option>
+                  </select>
+                </div>
+              </div>
+              <div class="qty">
+                <label>SL</label>
+                <input id="qty" placeholder="1" type="number">
+                <ul class="button-group list-btn">
+                  <li>
+                    <button type="button" class="wishlist" data-toggle="tooltip" data-placement="top" title="Thêm vào danh sách yêu thích" ><i class="fa fa-heart-o"></i></button>
+                  </li>
+                  <li>
+                    <button type="button" class="addtocart-btn" data-toggle="tooltip" data-placement="top" title="Thêm vào giỏ"  ><i class="fa fa-shopping-bag"></i></button>
+                  </li>
+                  <li>
+                    <button type="button" class="compare" data-toggle="tooltip" data-placement="top" title="So sánh sảnh phẩm" ><i class="fa fa-exchange"></i></button>
+                  </li>
+                  <li>
+                    <button type="button" class="quick-view" data-toggle="tooltip" data-placement="top" title="Xem nhanh" ><i class="fa fa-eye"></i></button>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="productinfo-tab">
+        <ul class="nav nav-tabs">
+          <li class="active"><a href="#tab-description" data-toggle="tab">Miêu tả</a></li>
+          <li><a href="#tab-review" data-toggle="tab">Đánh giá</a></li>
+        </ul>
+        <div class="tab-content">
+          <div class="tab-pane active" id="tab-description">
+            <div class="cpt_product_description ">
+              <div>
+                <p> <strong>Chíp đồ họa khủng</strong></p>
+                <p> Chip GTX 1080ti VGA 234fda</p>
+                <p> <strong>Dung lượng RAM khủng</strong></p>
+                <p> Dung lượng RAM tối đa lên đến tận 128GB</p>
+                <p> <strong>Thiết kế sành điệu</strong></p>
+                <p> Với từng đường nết uyển chuyển mềm mại đem lại thiết kế rất tinh tế và lịch sự</p>
+                <p> <strong>Mỏng nhẹ</strong></p>
+                <p> Với thiết kế tối ưu phù hợp với các chuyến công tác máy chỉ có khối lượng 1,5kg</p>
+              </div>
+            </div>
+            <!-- cpt_container_end --></div>
+          <div class="tab-pane" id="tab-review">
+            <form class="form-horizontal">
+              <div id="review"></div>
+              <h2>Write a review</h2>
+              <div class="form-group required">
+                <div class="col-sm-12">
+                  <label class="control-label" for="input-name">Tên của bạn</label>
+                  <input type="text" name="name" value="" id="input-name" class="form-control" />
+                </div>
+              </div>
+              <div class="form-group required">
+                <div class="col-sm-12">
+                  <label class="control-label" for="input-review">Đánh giá của bạn</label>
+                  <textarea name="text" rows="5" id="input-review" class="form-control"></textarea>
+                  <div class="help-block"><span class="text-danger">Chú ý:</span> Không xác định được</div>
+                </div>
+              </div>
+              <div class="form-group required">
+                <div class="col-sm-12">
+                  <label class="control-label">Xếp hạng</label>
+                  &nbsp;&nbsp;&nbsp; Bad&nbsp;
+                  <input type="radio" name="rating" value="1" />
+                  &nbsp;
+                  <input type="radio" name="rating" value="2" />
+                  &nbsp;
+                  <input type="radio" name="rating" value="3" />
+                  &nbsp;
+                  <input type="radio" name="rating" value="4" />
+                  &nbsp;
+                  <input type="radio" name="rating" value="5" />
+                  &nbsp;Tốt</div>
+              </div>
+              <div class="buttons clearfix">
+                <div class="pull-right">
+                  <button type="button" id="button-review" data-loading-text="Loading..." class="btn btn-primary">Tiếp tục</button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+      <h3 class="productblock-title">Sản phẩm cùng loại</h3>
+      <h4 class="title-subline">Có gì đặc biệt!Xem ngay.</h4>
+      <div class="box">
+        <div id="related-slidertab" class="row owl-carousel product-slider">
+          <div class="item">
+            <div class="product-thumb transition">
+              <div class="image product-imageblock"> <a href="product.html">
+                <img src="../ms03/image/img-product/Macbook 20181.jpg" alt="iPod Classic" title="iPod Classic" class="img-responsive" />
+                <img src="../ms03/image/img-product/Macbook 20181.jpg" alt="iPod Classic" title="iPod Classic" class="img-responsive" />
+                </a>
+                <ul class="button-group">
+                  <li>
+                    <button title="" data-placement="top" data-toggle="tooltip" class="wishlist" type="button" data-original-title="Thêm vào danh sách yêu thích"><i class="fa fa-heart-o"></i></button>
+                  </li>
+                  <li>
+                    <button title="" data-placement="top" data-toggle="tooltip" class="compare" type="button" data-original-title="So sánh sản phẩm này"><i class="fa fa-exchange"></i></button>
+                  </li>
+                  <li>
+                    <button title="" data-placement="top" data-toggle="tooltip" class="quick-view" type="button" data-original-title="xem nhanh"><i class="fa fa-eye"></i></button>
+                  </li>
+                  <li>
+                    <button title="Add to Cart" class="addtocart-btn" type="button">Thêm vào giỏ</button>
+                  </li>
+                </ul>
+              </div>
+              <div class="caption product-detail">
+                <div class="rating"> <span class="fa fa-stack"><i class="fa fa-star-o fa-stack-2x"></i><i class="fa fa-star fa-stack-2x"></i></span> <span class="fa fa-stack"><i class="fa fa-star-o fa-stack-2x"></i><i class="fa fa-star fa-stack-2x"></i></span> <span class="fa fa-stack"><i class="fa fa-star-o fa-stack-2x"></i><i class="fa fa-star fa-stack-2x"></i></span> <span class="fa fa-stack"><i class="fa fa-star-o fa-stack-2x"></i><i class="fa fa-star fa-stack-2x"></i></span> <span class="fa fa-stack"><i class="fa fa-star-o fa-stack-2x"></i></span> </div>
+                <h4 class="product-name"><a href="#" title="Casual Shirt With Ruffle Hem">Macbook Pro 2018</a></h4>
+                <p class="price product-price">35.000.000 đ<span class="price-tax">Giá cũ: 39.000.000 đ</span></p>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="product-thumb transition">
+              <div class="image product-imageblock"> <a href="product.html">
+                <img src="../ms03/image/img-product/Macbook 20181.jpg" alt="iPod Classic" title="iPod Classic" class="img-responsive" />
+                <img src="../ms03/image/img-product/Macbook 20181.jpg" alt="iPod Classic" title="iPod Classic" class="img-responsive" />
+                </a>
+                <ul class="button-group">
+                  <li>
+                    <button title="" data-placement="top" data-toggle="tooltip" class="wishlist" type="button" data-original-title="Thêm vào danh sách yêu thích"><i class="fa fa-heart-o"></i></button>
+                  </li>
+                  <li>
+                    <button title="" data-placement="top" data-toggle="tooltip" class="compare" type="button" data-original-title="So sánh sản phẩm này"><i class="fa fa-exchange"></i></button>
+                  </li>
+                  <li>
+                    <button title="" data-placement="top" data-toggle="tooltip" class="quick-view" type="button" data-original-title="xem nhanh"><i class="fa fa-eye"></i></button>
+                  </li>
+                  <li>
+                    <button title="Add to Cart" class="addtocart-btn" type="button">Thêm vào giỏ</button>
+                  </li>
+                </ul>
+              </div>
+              <div class="caption product-detail">
+                <div class="rating"> <span class="fa fa-stack"><i class="fa fa-star-o fa-stack-2x"></i><i class="fa fa-star fa-stack-2x"></i></span> <span class="fa fa-stack"><i class="fa fa-star-o fa-stack-2x"></i><i class="fa fa-star fa-stack-2x"></i></span> <span class="fa fa-stack"><i class="fa fa-star-o fa-stack-2x"></i><i class="fa fa-star fa-stack-2x"></i></span> <span class="fa fa-stack"><i class="fa fa-star-o fa-stack-2x"></i><i class="fa fa-star fa-stack-2x"></i></span> <span class="fa fa-stack"><i class="fa fa-star-o fa-stack-2x"></i></span> </div>
+                <h4 class="product-name"><a href="#" title="Casual Shirt With Ruffle Hem">Macbook Pro 2018</a></h4>
+                <p class="price product-price">35.000.000 đ<span class="price-tax">Giá cũ: 39.000.000 đ</span></p>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="product-thumb transition">
+              <div class="image product-imageblock"> <a href="product.html">
+                <img src="../ms03/image/img-product/Macbook 20181.jpg" alt="iPod Classic" title="iPod Classic" class="img-responsive" />
+                <img src="../ms03/image/img-product/Macbook 20181.jpg" alt="iPod Classic" title="iPod Classic" class="img-responsive" />
+                </a>
+                <ul class="button-group">
+                  <li>
+                    <button title="" data-placement="top" data-toggle="tooltip" class="wishlist" type="button" data-original-title="Thêm vào danh sách yêu thích"><i class="fa fa-heart-o"></i></button>
+                  </li>
+                  <li>
+                    <button title="" data-placement="top" data-toggle="tooltip" class="compare" type="button" data-original-title="So sánh sản phẩm này"><i class="fa fa-exchange"></i></button>
+                  </li>
+                  <li>
+                    <button title="" data-placement="top" data-toggle="tooltip" class="quick-view" type="button" data-original-title="xem nhanh"><i class="fa fa-eye"></i></button>
+                  </li>
+                  <li>
+                    <button title="Add to Cart" class="addtocart-btn" type="button">Thêm vào giỏ</button>
+                  </li>
+                </ul>
+              </div>
+              <div class="caption product-detail">
+                <div class="rating"> <span class="fa fa-stack"><i class="fa fa-star-o fa-stack-2x"></i><i class="fa fa-star fa-stack-2x"></i></span> <span class="fa fa-stack"><i class="fa fa-star-o fa-stack-2x"></i><i class="fa fa-star fa-stack-2x"></i></span> <span class="fa fa-stack"><i class="fa fa-star-o fa-stack-2x"></i><i class="fa fa-star fa-stack-2x"></i></span> <span class="fa fa-stack"><i class="fa fa-star-o fa-stack-2x"></i><i class="fa fa-star fa-stack-2x"></i></span> <span class="fa fa-stack"><i class="fa fa-star-o fa-stack-2x"></i></span> </div>
+                <h4 class="product-name"><a href="#" title="Casual Shirt With Ruffle Hem">Macbook Pro 2018</a></h4>
+                <p class="price product-price">35.000.000 đ<span class="price-tax">Giá cũ: 39.000.000 đ</span></p>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="product-thumb transition">
+              <div class="image product-imageblock"> <a href="product.html">
+                <img src="../ms03/image/img-product/Macbook 20181.jpg" alt="iPod Classic" title="iPod Classic" class="img-responsive" />
+                <img src="../ms03/image/img-product/Macbook 20181.jpg" alt="iPod Classic" title="iPod Classic" class="img-responsive" />
+                </a>
+                <ul class="button-group">
+                  <li>
+                    <button title="" data-placement="top" data-toggle="tooltip" class="wishlist" type="button" data-original-title="Thêm vào danh sách yêu thích"><i class="fa fa-heart-o"></i></button>
+                  </li>
+                  <li>
+                    <button title="" data-placement="top" data-toggle="tooltip" class="compare" type="button" data-original-title="So sánh sản phẩm này"><i class="fa fa-exchange"></i></button>
+                  </li>
+                  <li>
+                    <button title="" data-placement="top" data-toggle="tooltip" class="quick-view" type="button" data-original-title="xem nhanh"><i class="fa fa-eye"></i></button>
+                  </li>
+                  <li>
+                    <button title="Add to Cart" class="addtocart-btn" type="button">Thêm vào giỏ</button>
+                  </li>
+                </ul>
+              </div>
+              <div class="caption product-detail">
+                <div class="rating"> <span class="fa fa-stack"><i class="fa fa-star-o fa-stack-2x"></i><i class="fa fa-star fa-stack-2x"></i></span> <span class="fa fa-stack"><i class="fa fa-star-o fa-stack-2x"></i><i class="fa fa-star fa-stack-2x"></i></span> <span class="fa fa-stack"><i class="fa fa-star-o fa-stack-2x"></i><i class="fa fa-star fa-stack-2x"></i></span> <span class="fa fa-stack"><i class="fa fa-star-o fa-stack-2x"></i><i class="fa fa-star fa-stack-2x"></i></span> <span class="fa fa-stack"><i class="fa fa-star-o fa-stack-2x"></i></span> </div>
+                <h4 class="product-name"><a href="#" title="Casual Shirt With Ruffle Hem">Macbook Pro 2018</a></h4>
+                <p class="price product-price">35.000.000 đ<span class="price-tax">Giá cũ: 39.000.000 đ</span></p>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="product-thumb transition">
+              <div class="image product-imageblock"> <a href="product.html">
+                <img src="../ms03/image/img-product/Macbook 20181.jpg" alt="iPod Classic" title="iPod Classic" class="img-responsive" />
+                <img src="../ms03/image/img-product/Macbook 20181.jpg" alt="iPod Classic" title="iPod Classic" class="img-responsive" />
+                </a>
+                <ul class="button-group">
+                  <li>
+                    <button title="" data-placement="top" data-toggle="tooltip" class="wishlist" type="button" data-original-title="Thêm vào danh sách yêu thích"><i class="fa fa-heart-o"></i></button>
+                  </li>
+                  <li>
+                    <button title="" data-placement="top" data-toggle="tooltip" class="compare" type="button" data-original-title="So sánh sản phẩm này"><i class="fa fa-exchange"></i></button>
+                  </li>
+                  <li>
+                    <button title="" data-placement="top" data-toggle="tooltip" class="quick-view" type="button" data-original-title="xem nhanh"><i class="fa fa-eye"></i></button>
+                  </li>
+                  <li>
+                    <button title="Add to Cart" class="addtocart-btn" type="button">Thêm vào giỏ</button>
+                  </li>
+                </ul>
+              </div>
+              <div class="caption product-detail">
+                <div class="rating"> <span class="fa fa-stack"><i class="fa fa-star-o fa-stack-2x"></i><i class="fa fa-star fa-stack-2x"></i></span> <span class="fa fa-stack"><i class="fa fa-star-o fa-stack-2x"></i><i class="fa fa-star fa-stack-2x"></i></span> <span class="fa fa-stack"><i class="fa fa-star-o fa-stack-2x"></i><i class="fa fa-star fa-stack-2x"></i></span> <span class="fa fa-stack"><i class="fa fa-star-o fa-stack-2x"></i><i class="fa fa-star fa-stack-2x"></i></span> <span class="fa fa-stack"><i class="fa fa-star-o fa-stack-2x"></i></span> </div>
+                <h4 class="product-name"><a href="#" title="Casual Shirt With Ruffle Hem">Macbook Pro 2018</a></h4>
+                <p class="price product-price">35.000.000 đ<span class="price-tax">Giá cũ: 39.000.000 đ</span></p>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="product-thumb transition">
+              <div class="image product-imageblock"> <a href="product.html">
+                <img src="../ms03/image/img-product/Macbook 20181.jpg" alt="iPod Classic" title="iPod Classic" class="img-responsive" />
+                <img src="../ms03/image/img-product/Macbook 20181.jpg" alt="iPod Classic" title="iPod Classic" class="img-responsive" />
+                </a>
+                <ul class="button-group">
+                  <li>
+                    <button title="" data-placement="top" data-toggle="tooltip" class="wishlist" type="button" data-original-title="Thêm vào danh sách yêu thích"><i class="fa fa-heart-o"></i></button>
+                  </li>
+                  <li>
+                    <button title="" data-placement="top" data-toggle="tooltip" class="compare" type="button" data-original-title="So sánh sản phẩm này"><i class="fa fa-exchange"></i></button>
+                  </li>
+                  <li>
+                    <button title="" data-placement="top" data-toggle="tooltip" class="quick-view" type="button" data-original-title="xem nhanh"><i class="fa fa-eye"></i></button>
+                  </li>
+                  <li>
+                    <button title="Add to Cart" class="addtocart-btn" type="button">Thêm vào giỏ</button>
+                  </li>
+                </ul>
+              </div>
+              <div class="caption product-detail">
+                <div class="rating"> <span class="fa fa-stack"><i class="fa fa-star-o fa-stack-2x"></i><i class="fa fa-star fa-stack-2x"></i></span> <span class="fa fa-stack"><i class="fa fa-star-o fa-stack-2x"></i><i class="fa fa-star fa-stack-2x"></i></span> <span class="fa fa-stack"><i class="fa fa-star-o fa-stack-2x"></i><i class="fa fa-star fa-stack-2x"></i></span> <span class="fa fa-stack"><i class="fa fa-star-o fa-stack-2x"></i><i class="fa fa-star fa-stack-2x"></i></span> <span class="fa fa-stack"><i class="fa fa-star-o fa-stack-2x"></i></span> </div>
+                <h4 class="product-name"><a href="#" title="Casual Shirt With Ruffle Hem">Macbook Pro 2018</a></h4>
+                <p class="price product-price">35.000.000 đ<span class="price-tax">Giá cũ: 39.000.000 đ</span></p>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="product-thumb transition">
+              <div class="image product-imageblock"> <a href="product.html">
+                <img src="../ms03/image/img-product/Macbook 20181.jpg" alt="iPod Classic" title="iPod Classic" class="img-responsive" />
+                <img src="../ms03/image/img-product/Macbook 20181.jpg" alt="iPod Classic" title="iPod Classic" class="img-responsive" />
+                </a>
+                <ul class="button-group">
+                  <li>
+                    <button title="" data-placement="top" data-toggle="tooltip" class="wishlist" type="button" data-original-title="Thêm vào danh sách yêu thích"><i class="fa fa-heart-o"></i></button>
+                  </li>
+                  <li>
+                    <button title="" data-placement="top" data-toggle="tooltip" class="compare" type="button" data-original-title="So sánh sản phẩm này"><i class="fa fa-exchange"></i></button>
+                  </li>
+                  <li>
+                    <button title="" data-placement="top" data-toggle="tooltip" class="quick-view" type="button" data-original-title="xem nhanh"><i class="fa fa-eye"></i></button>
+                  </li>
+                  <li>
+                    <button title="Add to Cart" class="addtocart-btn" type="button">Thêm vào giỏ</button>
+                  </li>
+                </ul>
+              </div>
+              <div class="caption product-detail">
+                <div class="rating"> <span class="fa fa-stack"><i class="fa fa-star-o fa-stack-2x"></i><i class="fa fa-star fa-stack-2x"></i></span> <span class="fa fa-stack"><i class="fa fa-star-o fa-stack-2x"></i><i class="fa fa-star fa-stack-2x"></i></span> <span class="fa fa-stack"><i class="fa fa-star-o fa-stack-2x"></i><i class="fa fa-star fa-stack-2x"></i></span> <span class="fa fa-stack"><i class="fa fa-star-o fa-stack-2x"></i><i class="fa fa-star fa-stack-2x"></i></span> <span class="fa fa-stack"><i class="fa fa-star-o fa-stack-2x"></i></span> </div>
+                <h4 class="product-name"><a href="#" title="Casual Shirt With Ruffle Hem">Macbook Pro 2018</a></h4>
+                <p class="price product-price">35.000.000 đ<span class="price-tax">Giá cũ: 39.000.000 đ</span></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="footer-top-cms parallax-container">
+  <div class="parallax"><img src="../ms03/image/Backgound.jpg" alt="#"></div>
+  <div class="container">
+    <div class="row">
+      <div class="newslatter">
+        <form>
+          <h5>ĐĂNG KÝ ĐỂ NHẬN ĐƯỢC THÔNG TIN MỚI NHẤT</h5>
+          <h4 class="title-subline">Hãy luôn theo dõi để biết những cập nhật về sản phẩm mới nhất từ chúng tôi</h4>
+          <div class="input-group">
+            <input type="text" class=" form-control" placeholder="nguyenvana@gmail.com">
+            <button type="submit" value="Sign up" class="btn btn-large btn-primary">Đăng ký</button>
+          </div>
+        </form>
+      </div>
+      <div class="footer-social">
+        <ul>
+          <li class="facebook"><a href="https://www.facebook.com/groups/soict/"><i class="fa fa-facebook"></i></a></li>
+          <li class="linkedin"><a href="#"><i class="fa fa-linkedin"></i></a></li>
+          <li class="twitter"><a href="#"><i class="fa fa-twitter"></i></a></li>
+          <li class="gplus"><a href="#"><i class="fa fa-google-plus"></i></a></li>
+          <li class="youtube"><a href="#"><i class="fa fa-youtube-play"></i></a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="container">
+  <h3 class="client-title">Thương hiệu nổi tiếng</h3>
+  <h4 class="title-subline">Sản phẩm chất lượng cao</h4>
+  <div id="brand_carouse" class="owl-carousel brand-logo">
+    <div class="item text-center"> <a href="#"><img src="../ms03/image/logo hãng/Apple-logo-grey-880x625.png" alt="Disney" class="img-responsive" /></a> </div>
+    <div class="item text-center"> <a href="#"><img src="../ms03/image/logo hãng/Xiaomi-logo.jpg" alt="Dell" class="img-responsive" /></a> </div>
+    <div class="item text-center"> <a href="#"><img src="../ms03/image/logo hãng/Wappen_MSI_vertikal_schwarz_V1.png" alt="Harley" class="img-responsive" /></a> </div>
+    <div class="item text-center"> <a href="#"><img src="../ms03/image/logo hãng/Avita-Logo.jpg" alt="Canon" class="img-responsive" /></a> </div>
+    <div class="item text-center"> <a href="#"><img src="../ms03/image/logo hãng/Dell_logo_2016.svg.png" alt="Canon" class="img-responsive" /></a> </div>
+    <div class="item text-center"> <a href="#"><img src="../ms03/image/logo hãng/logo-hp.png" alt="Canon" class="img-responsive" /></a> </div>
+    <div class="item text-center"> <a href="#"><img src="../ms03/image/logo hãng/new-lenovo-logo.png" alt="Canon" class="img-responsive" /></a> </div>
+    <div class="item text-center"> <a href="#"><img src="../ms03/image/logo hãng/Wappen_MSI_vertikal_schwarz_V1.png" alt="Canon" class="img-responsive" /></a> </div>
+    <div class="item text-center"> <a href="#"><img src="../ms03/image/logo hãng/Xiaomi-logo.jpg" alt="Canon" class="img-responsive" /></a> </div>
+  </div>
+</div>
+<footer>
+  <div class="cms_searvice">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3 ">
+          <div class="cms-block1 z-depth-5">
+            <h4>Giao hàng miến phí</h4>
+            <p>Giao hàng toàn quốc</p>
+          </div>
+        </div>
+        <div class="col-md-3 ">
+          <div class="cms-block2">
+            <h4>Đổi trả trong 30 ngày</h4>
+            <p>Uy tín-Chất lượng</p>
+          </div>
+        </div>
+        <div class="col-md-3 ">
+          <div class="cms-block3">
+            <h4>Tuy vấn 24/7</h4>
+            <p>Luôn luôn sẵn sàng</p>
+          </div>
+        </div>
+        <div class="col-md-3 ">
+          <div class="cms-block4">
+            <h4>Thanh toán Online </h4>
+            <p>Mọi lúc mọi nơi</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-3 footer-block">
+        <h5 class="footer-title">THÔNG TIN</h5>
+        <ul class="list-unstyled ul-wrapper">
+          <li><a href="">Giới thiệu chung</a></li>
+          <li><a href="#">Thông tin đơn hàng</a></li>
+          <li><a href="#">Chính sách bảo mật</a></li>
+          <li><a href="#">Điều khoản và điều kiện</a></li>
+          <li><a href="#">Danh sách mong muốn</a></li>
+          <li><a href="#">Phiếu quà tặng</a></li>
+          <li><a href="#">Xem giỏ hàng</a></li>
+          <li><a href="#">Lịch sử mua hàng</a></li>
+        </ul>
+      </div>
+      <div class="col-sm-3 footer-block">
+        <h5 class="footer-title">TÀI KHOẢN </h5>
+        <ul class="list-unstyled ul-wrapper">
+          <li><a href="">Liên hệ với chúng tôi</a></li>
+          <li><a href="#">Tài khoản của tôi</a></li>
+          <li><a href="#">Lịch sử mua hàng</a></li>
+          <li><a href="#">Danh sách yêu thích</a></li>
+          <li><a href="#">Bản tin</a></li>
+          <li><a href="#">Phiếu quà tặng</a></li>
+          <li><a href="#">Thương hiệu</a></li>
+          <li><a href="#">Chi nhánh</a></li>
+        </ul>
+      </div>
+      <div class="col-sm-3 footer-block">
+        <h5 class="footer-title">TIỆN ÍCH</h5>
+        <ul class="list-unstyled ul-wrapper">
+          <li><a href="#">Thông tin đơn hàng</a></li>
+          <li><a href="#">Chính sách bảo mật</a></li>
+          <li><a href="#">Điều khoản và điều kiện</a></li>
+          <li><a href="#">Liên hệ với chúng tôi</a></li>
+          <li><a href="#">Sơ đồ web</a></li>
+          <li><a href="#">Thu hồi sản phẩm</a></li>
+          <li><a href="#">Phiếu quà tặng</a></li>
+          <li><a href="#">Giúp đỡ và hỏi đáp</a></li>
+          <li><a href="#">Bán trong ngày</a></li>
+        </ul>
+      </div>
+      <div class="col-sm-3 footer-block">
+        <div class="content_footercms_right">
+          <div class="footer-contact">
+            <h5 class="contact-title footer-title">LIÊN HỆ</h5>
+            <ul class="ul-wrapper">
+              <li><i class="fa fa-map-marker"></i><span class="location2">Đại chỉ:<br>
+                Trường đại học Bách Khoa Hà Nội<br>
+                Số 1, Đại Cồ Việt <br>
+                Hai Bà Trưng-Hà Nội</span></li>
+              <li><i class="fa fa-envelope"></i><span class="mail2"><a href="#">mao.ng17xxxx@sis.hust.edu.vn</a><br>
+                <a href="#">giang.nt@17xxxxx@sis.hust.edu.vn</a></span></li>
+              <li><i class="fa fa-mobile"></i><span class="phone2">+84 0987-654-321<br>
+                +84 0987-654-321</span></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <div id="bottom-footer">
+      <ul class="footer-link">
+        <li><a href="#">Trang chủ</a></li>
+        <li><a href="#">Giới thiệu</a></li>
+        <li><a href="#">Dịch vụ</a></li>
+        <li><a href="#">Bộ phận</a></li>
+        <li><a href="#">Giá cả</a></li>
+        <li><a href="#">Giao tiếp</a></li>
+      </ul>
+      <div class="footer-bottom-cms">
+        <div class="footer-payment">
+          <ul>
+            <li class="mastero"><a href="#"><img alt="" src="image/payment/mastero.jpg"></a></li>
+            <li class="visa"><a href="#"><img alt="" src="image/payment/visa.jpg"></a></li>
+            <li class="currus"><a href="#"><img alt="" src="image/payment/currus.jpg"></a></li>
+            <li class="discover"><a href="#"><img alt="" src="image/payment/discover.jpg"></a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script src="javascript/jquery.parallax.js"></script> 
+<script>
+    jQuery(document).ready(function ($) {
+        $('.parallax').parallax();
+    });
+</script>
+</body>
+</html>
