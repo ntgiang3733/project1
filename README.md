@@ -158,7 +158,7 @@ Nếu sử dụng MySQL. tạo mới database tên project, chạy file scriptMy
 
 <a name="demovideo"></a>
 #  Demo Video :
-link video demo:
+link video demo:https://www.youtube.com/watch?v=pqCETUN0vDQ
 
 
 
