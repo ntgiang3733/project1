@@ -33,6 +33,7 @@
 ==========================================================
 <a name="backend"></a>
 # Backend
+
 <a name="muctieu1"></a>
 ## I . Mục tiêu
   Website thương mại điện tử là trang thông tin điện tử được thiết lập để phục vụ một phần hoặc toàn bộ quy trình của hoạt động mua bán hàng hóa hay cung ứng dịch vụ, từ trưng bày giới thiệu hàng hóa, dịch vụ đến giao kết hợp đồng, cung ứng dịch vụ, thanh toán và dịch vụ sau bán hàng.
@@ -53,6 +54,8 @@
 <img src=https://i.imgur.com/0b6WZI7.png>
 -B3: Nếu sử dụng SQLServer, tạo mới database tên MoonStore , chạy file scriptSQLServer.sql trong thư mục Media để có được CSDL phù hợp .
 Nếu sử dụng MySQL. tạo mới database tên project, chạy file scriptMySQL.sql trong thư mục Media để có được CSDL phù hợp.
+<img src=https://i.imgur.com/dyWxEJR.png>.
+
 
 <a name="huongdansudung1"></a>
 ## IV . Hướng dẫn sử dụng :
