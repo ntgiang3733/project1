@@ -34,18 +34,18 @@
 <a name="backend"></a>
 # Backend
 <a name="muctieu1"></a>
-## I . Mục tiêu Backend
+## I . Mục tiêu
   Website thương mại điện tử là trang thông tin điện tử được thiết lập để phục vụ một phần hoặc toàn bộ quy trình của hoạt động mua bán hàng hóa hay cung ứng dịch vụ, từ trưng bày giới thiệu hàng hóa, dịch vụ đến giao kết hợp đồng, cung ứng dịch vụ, thanh toán và dịch vụ sau bán hàng.
   Project này nhóm em thực hiện thiết kế trang web bán laptop , trong đó phần backend được xây dựng nhằm cung cấp các tính năng và cơ sở dữ liệu phục vụ cho người sử dụng, cụ thể gồm:
 - Cung cấp cơ sở dữ liệu, nơi lưu trữ thông tin về sản phẩm, tài khoản, hóa đơn...
 - Cung cấp cho người dùng các chức năng khi truy cập trang web gồm : xem danh sách sản phẩm, lọc sản phẩm theo danh mục, sắp xếp sản phẩm theo tên, theo giá,tìm kiếm sản phẩm, thực hiện đăng ký , đăng nhập tài khoản, thêm sản phẩm vào giỏ hàng, thanh toán.
 
 <a name="congnghesudung1"></a>
-## II . Công nghệ sử dụng Backend
+## II . Công nghệ sử dụng
   Phần Backend của Project lập trình bằng ngôn ngữ Java, sử dụng công nghệ JSP Servlet JDBC để xây dựng các chức năng và 2 hệ quản trị CSDL : SQLServer và MySQL
 
 <a name="huongdancaidat1"></a>
-## III . Hướng dẫn cài đặt phần Backend
+## III . Hướng dẫn cài đặt phần
 **Các phần mềm cần thiết : **NetBean IDE, SQLServer( hoặc MySQL)
 -B1: Lấy phần source code trên git về máy, dùng NetBean tìm đường dẫn và mở project nằm trong máy
 <img src=https://i.imgur.com/wKEuXvP.png>
@@ -92,8 +92,8 @@ Nếu sử dụng MySQL. tạo mới database tên project, chạy file scriptMy
   - UserService : tiếp nhận xử lý các yêu cầu đăng ký đăng nhập và chỉnh sửa tài khoản.
   
 ***************************************************************************************************
-<a name="backend"></a>
-# Backend
+<a name="frontend"></a>
+# Frontend
 
 <a name="muctieu2"></a>
 ## Mục tiêu
